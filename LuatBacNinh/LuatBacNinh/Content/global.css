@@ -1,0 +1,166 @@
+﻿body.custom-background {
+    background-color: #452106;
+}
+body {
+    display: block;
+    /*margin: 8px;*/
+}
+
+.site-container {
+    margin: 0 auto;
+    max-width: 1020px;
+    padding: 0 10px;
+    position: relative;
+    background: #fff;
+}
+
+* {
+    font-size: 14px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    line-height: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.nav-primary {
+    height: 29px;
+    background: #925e25;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-padding-start: 40px;
+}
+
+
+
+.nav-primary ul.menu>li {
+    background: url(//luatapollo.com/wp-content/themes/RTNormal/images/li-menu.png)center right no-repeat;
+}
+.nav-primary ul.menu li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.content-sidebar-wrap:after, .wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.nav-primary ul.menu>li {
+    background: url(//luatapollo.com/wp-content/themes/RTNormal/images/li-menu.png)center right no-repeat;
+}
+
+.nav-primary ul.menu>li:hover>a, .nav-primary ul.menu>.current_page_item>a, .nav-primary ul.menu>.current-cat>a, .nav-primary ul.menu>.current-menu-item>a {
+    color: #8c0000;
+}
+.nav-primary li a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0 12px;
+    line-height: 29px;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+a {
+    text-decoration: none;
+}
+.menu-item-type-custom{
+    margin-left: -40px;
+}
+
+.navbar-inverse{
+    height: 29px;
+    background: #925e25;
+    color: white;
+}
+
+.site-inner{
+    margin-top: 10px;
+}
+
+.content-sidebar-wrap {
+    padding: 20px 0;
+    position: relative;
+}
+
+.sidebar-content .content, .sidebar-sidebar-content .content {
+    float: right;
+    width: calc(100% - 23.5% - 20px);
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.heading, #related-post h3 {
+    color: #fff;
+    font-weight: 500;
+    line-height: 29px;
+    clear: both;
+    margin: 0 0 18px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #925e25;
+}
+
+.heading a, .heading span {
+    color: #fff;
+    padding-left: 12px;
+    line-height: 29px;
+    font-weight: 500;
+    padding-left: 35px;
+    display: inline-block;
+    font-size: 15px;
+    background: url(//luatapollo.com/wp-content/themes/RTNormal/images/favicon.png)5px center no-repeat,#925e25;
+    min-width: 185px;
+    max-width: 80%;
+    position: relative;
+}
+
+.heading a:after, .heading span:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -25px;
+    width: 26px;
+    height: 29px;
+    background: url(//luatapollo.com/wp-content/themes/RTNormal/images/after.png)no-repeat;
+}
+
+div.clear {
+    clear: both;
+}
+
+.rt-blog-shortcode.style-blog-2 .fusion-row article {
+    float: left;
+    overflow: hidden;
+}
+.fusion-one-third {
+    width: 31.6%;
+    margin: 0 2.6% 20px 0;
+}
+.fusion-column-last {
+    margin-right: 0;
+}
